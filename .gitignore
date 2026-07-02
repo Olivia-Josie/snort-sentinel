@@ -1,0 +1,10 @@
+# fichiers Python compiles
+_pycache_/
+*.pyc
+
+# fichiers de config avec des infos sensibles
+.env
+*.log
+
+# fichiers systeme
+.DS_Store
