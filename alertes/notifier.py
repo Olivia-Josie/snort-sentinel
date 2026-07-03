@@ -38,7 +38,7 @@ def envoyer_alerte(message_alerte):
         print(f"[!] Erreur lors de l'envoi de l'alerte : {e}")
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # le message d'alerte est recu en argument de ligne de commande
     if len(sys.argv) > 1:
         message = " ".join(sys.argv[1:])
